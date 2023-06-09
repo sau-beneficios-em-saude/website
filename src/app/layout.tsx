@@ -1,16 +1,17 @@
 'use client';
 import './globals.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Inter } from 'next/font/google';
-import { Container, Nav, NavDropdown, Navbar } from 'react-bootstrap';
+import '@fortawesome/fontawesome-svg-core/styles.css';
+import { Button, Container, Nav, NavDropdown, Navbar } from 'react-bootstrap';
+import { Roboto } from '@next/font/google';
 import Image from 'next/image';
 import Logo from '../assets/logo.svg';
-
-// export const metadata = {
-//   title: 'Saú - plataforma Benefícios em Saúde!',
-//   description:
-//     'Nós democratizamos o acesso à saúde de maneira simples e descomplicada',
-// };
+export const roboto = Roboto({
+  display: 'swap',
+  weight: '400',
+  style: 'normal',
+  subsets: ['latin'],
+});
 
 export default function RootLayout({
   children,
@@ -34,13 +35,45 @@ export default function RootLayout({
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="me-auto"></Nav>
               <Nav>
-                <Nav.Link href="#deets">A Saú</Nav.Link>
-                <Nav.Link href="#deets">Vantagens</Nav.Link>
-                <Nav.Link href="#deets">Planos</Nav.Link>
-                <Nav.Link href="#deets">Parceiros</Nav.Link>
-                <Nav.Link href="#deets">Economize</Nav.Link>
-                <Nav.Link href="#deets">Siga Saú</Nav.Link>
+                <Nav.Link
+                  className={roboto.className + ' linkMenu'}
+                  href="#deets">
+                  A Saú
+                </Nav.Link>
+                <Nav.Link
+                  className={roboto.className + ' linkMenu'}
+                  href="#deets">
+                  Vantagens
+                </Nav.Link>
+                <Nav.Link
+                  className={roboto.className + ' linkMenu'}
+                  href="#deets">
+                  Planos
+                </Nav.Link>
+                <Nav.Link
+                  className={roboto.className + ' linkMenu'}
+                  href="#deets">
+                  Parceiros
+                </Nav.Link>
+                <Nav.Link
+                  className={roboto.className + ' linkMenu'}
+                  href="#deets">
+                  Economize
+                </Nav.Link>
+                <Nav.Link
+                  className={roboto.className + ' linkMenu'}
+                  href="#deets">
+                  Siga Saú
+                </Nav.Link>
+                <Nav.Link
+                  className={roboto.className + ' linkMenu'}
+                  href="#deets"></Nav.Link>
               </Nav>
+              <Button
+                className={roboto.className}
+                variant="outline-primary">
+                Área do Paciente
+              </Button>
             </Navbar.Collapse>
           </Container>
         </Navbar>

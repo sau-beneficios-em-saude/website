@@ -1,3 +1,28 @@
-.main {
+.banner{
+   background-image: url(../assets/bg-banner.svg);
+    min-height: 483px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
 
+.bannerInt{
+    padding: 0px 85px;
+    width: 100%;
+}
+.text1{
+    font-size: 40px;
+    line-height: 52px;
+    /* or 130% */
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.144px;
+    color: #1D1D1F;
+}
+.text2{
+    font-size: 20px;
+    line-height: 150%;
+    color: #000000;
+}
+.mt45{
+    margin-top: 45px;
 }
