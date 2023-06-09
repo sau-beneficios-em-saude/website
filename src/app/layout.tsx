@@ -7,7 +7,7 @@ import { Roboto } from '@next/font/google';
 import Image from 'next/image';
 import Logo from '../assets/logo.svg';
 import Footer from '../assets/footer.svg';
-export const roboto = Roboto({
+const roboto = Roboto({
   display: 'swap',
   weight: '400',
   style: 'normal',

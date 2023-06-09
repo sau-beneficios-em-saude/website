@@ -17,13 +17,13 @@ import BannerHome from '../assets/bannerHome.jpg';
 import AuxilioBanner from '../assets/auxilioBanner.png';
 import TelaSauHome from '../assets/telaSauHome.png';
 
-export const roboto = Roboto({
+const roboto = Roboto({
   display: 'swap',
   weight: '700',
   style: 'normal',
   subsets: ['latin'],
 });
-export const roboto400 = Roboto({
+const roboto400 = Roboto({
   display: 'swap',
   weight: '400',
   style: 'normal',
