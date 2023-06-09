@@ -26,3 +26,124 @@
 .mt45{
     margin-top: 45px;
 }
+.containerBeneficios{
+    padding:100px 0px;
+}
+.dv1{
+    font-size: 32px;
+    line-height: 32px;
+    letter-spacing: 0.196px;
+    color: #1D1D1F;
+    text-align: center;
+}
+.dv1 span{
+    color: #004AAD;
+}
+.dv2{
+    margin-top: 63px;
+}
+.dv3{
+    background: #004AAD;
+    box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.08);
+    border-radius: 18px;
+    padding: 30px;
+}
+.dv4{
+    margin-top: 20px;
+}
+
+.dv4 h2{
+    font-size: 28px;
+    line-height: 28px;
+    letter-spacing: 0.216px;
+    color: #5DE0E6;
+}
+.dv4 h2 span{
+    color: #fff;
+}
+.dv5{
+    margin-top: 30px;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin-bottom: 0px;
+}
+.dv3_{
+    background: #fff;
+    box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.08);
+    border-radius: 18px;
+    padding: 30px;
+}
+.dv4_ h2{
+    font-size: 26px;
+    line-height: 28px;
+    letter-spacing: 0.216px;
+    color: #004AAD;
+}
+.dv4_ h2 span{
+    color: #000;
+}
+.dv5_{
+    margin-top: 30px;
+    font-size: 20px;
+    line-height: 150%;
+    color: #000000;
+    margin-bottom: 0px;
+}
+.imgHeight{
+    height: 47px;
+}
+.dv6{
+    background-color: rgba(93, 224, 230, 0.1);
+    padding: 54px 0px;
+}
+.dv7{
+    font-size: 32px;
+    line-height: 136%;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 0px;
+}
+.dv8{
+    font-size: 32px;
+    line-height: 136%;
+    color: #000000;
+    margin-bottom: 31px;
+    margin-top: 44px;
+}
+.dv9{
+    padding: 100px 0px;
+}
+.dv10{
+    object-fit: cover;
+    height: 600px;
+}
+.dv11{
+    padding: 100px 0px;
+}
+.dv12{
+    font-size: 32px;
+    line-height: 32px;
+    letter-spacing: 0.196px;
+    color: #1D1D1F;
+}
+.dv13{
+    margin-top: 72px;
+}
+.dv14{
+    font-size: 20px;
+    line-height: 150%;
+    color: #000000;
+    margin-bottom: 0px;
+}
+.dv15{
+    margin-top: 40px;
+    font-size: 40px;
+    line-height: 52px;
+    letter-spacing: -0.144px;
+    color: #1D1D1F;
+    margin-bottom: 40px;
+}
+.dv16{
+    padding-bottom: 100px;
+}

@@ -6,6 +6,7 @@ import { Button, Container, Nav, NavDropdown, Navbar } from 'react-bootstrap';
 import { Roboto } from '@next/font/google';
 import Image from 'next/image';
 import Logo from '../assets/logo.svg';
+import Footer from '../assets/footer.svg';
 export const roboto = Roboto({
   display: 'swap',
   weight: '400',
@@ -78,6 +79,14 @@ export default function RootLayout({
           </Container>
         </Navbar>
         {children}
+        <Image
+          src={Footer}
+          alt={''}
+          className="w-100"
+          style={{
+            backgroundColor: '#004AAD',
+          }}
+        />
       </body>
     </html>
   );
